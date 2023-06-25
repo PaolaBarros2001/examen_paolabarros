@@ -18,6 +18,11 @@
         "icon": "logo-ionic",
         "name": "Input",
         "redirectTo": "/input"
+    },
+    {
+        "icon": "checkbox-sharp",
+        "name": "InputExam",
+        "redirectTo": "/inputexam"
     }
 ]
 

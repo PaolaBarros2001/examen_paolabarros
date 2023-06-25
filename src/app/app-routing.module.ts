@@ -27,6 +27,10 @@ pathMatch: 'full'
     path: 'avatar',
     loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
   },
+  {
+    path: 'inputexam',
+    loadChildren: () => import('./pages/inputexam/inputexam.module').then( m => m.InputexamPageModule)
+  },
 ];
 @NgModule({
 imports: [

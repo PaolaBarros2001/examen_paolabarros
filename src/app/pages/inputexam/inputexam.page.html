@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="header-title">Formulario de Registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-item class="image-container">
+  <img alt="Silhouette of a person's head" src="assets/icono.avif" class="centered-image" />
+</ion-item>
+
+
+<ion-list>
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked">Nombres</ion-label>
+      <ion-input class="custom-input" placeholder="Ingrese nombres"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="stacked">Edad</ion-label>
+      <ion-input class="custom-input" type="number" placeholder="18"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="stacked">Password</ion-label>
+      <ion-input class="custom-input" type="password" value="password"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input class="custom-input" type="email" placeholder="email@domain.com"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="stacked">Teléfono</ion-label>
+      <ion-input class="custom-input" type="tel" placeholder="0958654352"></ion-input>
+    </ion-item>
+    <div class="ion-text-center">
+      <ion-button class="custom-button" (click)="mostrarAlerta()">Guardar</ion-button>
+    </div>
+  </ion-list>
+</ion-list>
